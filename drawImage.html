@@ -2,7 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>03</title>
+    <title>绘制图像</title>
+    <style>
+        canvas{
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body onload="draw();">
 <canvas id="canvas" width="1000" height="1000"></canvas>
@@ -19,7 +24,6 @@
             ctx.lineTo(170,15);
             ctx.closePath();
             ctx.stroke();
-//            Ctx.fill();
         };
         img.src = './images/1.png';
     }

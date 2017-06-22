@@ -6,5 +6,5 @@
 - [三角形](http://www.sail.name/Canvas-Practice/triangle.html)
 - [圆形(arc)](http://www.sail.name/Canvas-Practice/arc-circle.html)
 - [圆(arc)](http://www.sail.name/Canvas-Practice/arc-circles.html)
-- [圆(arc)](http://www.sail.name/Canvas-Practice/smile.html)
+- [笑脸](http://www.sail.name/Canvas-Practice/smile.html)
 - [绘制图片](http://www.sail.name/Canvas-Practice/drawImage.html)

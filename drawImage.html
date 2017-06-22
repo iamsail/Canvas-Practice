@@ -15,18 +15,17 @@
     function draw() {
         var ctx = document.getElementById('canvas').getContext('2d');
         var img = new Image();
-        img.src = './images/1.png';
         img.onload = function(){
             ctx.drawImage(img,0,0,500,500);
-            ctx.beginPath();
-            ctx.moveTo(30,96);
-            ctx.lineTo(70,66);
-            ctx.lineTo(103,76);
-            ctx.lineTo(170,15);
-            ctx.closePath();
-            ctx.stroke();
+//            ctx.beginPath();
+//            ctx.moveTo(30,96);
+//            ctx.lineTo(70,66);
+//            ctx.lineTo(103,76);
+//            ctx.lineTo(170,15);
+//            ctx.closePath();
+//            ctx.stroke();
         };
-
+        img.src = './images/1.png';
     }
 </script>
 </body>
